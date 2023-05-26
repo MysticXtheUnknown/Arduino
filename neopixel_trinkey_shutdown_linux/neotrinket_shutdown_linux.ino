@@ -77,7 +77,7 @@ void setup() {
   delay(20 * 1000); //delay ten seconds
   Keyboard.println("sudo shutdown");
   delay(5 * 1000); //delay 5 seconds
-  Keyboard.println("4812"); //in case it asks for the unix password on my own machine
+  Keyboard.println("0000"); //in case it asks for the unix password on my own machine
 
   //show the leds
 
